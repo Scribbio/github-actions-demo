@@ -5,4 +5,8 @@ app.get("/hello", (_req, res) => {
   res.status(200).send("Hello world");
 });
 
+app.get("/goodbye", (_req, res) => {
+  res.status(200).send("Good Bye");
+});
+
 module.exports = app;
